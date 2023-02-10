@@ -39,10 +39,10 @@ def prime_divisors(num, prime):
 
 
 if __name__ == "__main__":
-    MaxNumber = int(input("Enter your max number range for range numbers (More than the desired number) : "))
-    numbers(MaxNumber)
+    #MaxNumber = int(input("Enter your max number range for range numbers (More than the desired number) : "))
+    numbers(1000) #MaxNumber
     check_prime(ListNumbers)
-    print(PrimeNumbers)
+    #print(PrimeNumbers)
     Number = int(input("Enter your Number to check prime divisors : "))
     prime_divisors(Number, PrimeNumbers)
     print(f"prime divisors of {Number} => {PrimeDivisorsNumbers}")
