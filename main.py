@@ -25,6 +25,7 @@ def check_prime(ListNum):
         x = ListNum[0]
         PrimeNumbers.append(x)
         ListNum = delete(x, ListNum)
+    # second way, for less than 5000
     #if len(ListNum) != 0: 
         #x = ListNum[0]
         #PrimeNumbers.append(x)
